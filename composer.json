@@ -1,0 +1,26 @@
+{
+    "name": "mehdirmt/common",
+    "description": "laravel common package",
+    "keywords": ["barakat", "ehealth", "auth"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mehdirmt",
+            "email": "mehdirahmati6903@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Mehdirmt\\Common\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mehdirmt\\Common\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
